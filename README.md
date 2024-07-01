@@ -26,7 +26,7 @@ Analysis code for transcriptome data
 
     stringtie mapping/sample1_sorted.bam -p 8 pe -o quantify/sample1.gtf -A quantify/sample1.fpkm_tracking -G Anno.gtf
 
-### 4.merge gtf
+### 4.merge gene expression matrix
 
     python3 scripts/merge.py -i quantify/ -f ./merged_FPKM.txt -t ./merged_TPM.txt
 
