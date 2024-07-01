@@ -1,23 +1,6 @@
 # RNA-Seq
 Analysis code for transcriptome data
 
-
-
-## Input and references
-
-| File         | Description                |
-| ------------ | -------------------------- |
-| genome.index | Index of the genome hisat2 |
-| Anno.gtf     | Genome annotation file     |
-
-## Software
-
-| Software     | Description                |
-| ------------ | -------------------------- |
-| fastp        | Quality control            |
-| hisat2       | Mapping                    |
-| stringtie    | quantify                   |
-
 ## Data processing
 
 ### 1.QC
