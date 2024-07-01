@@ -10,7 +10,13 @@ Analysis code for transcriptome data
 | genome.index | Index of the genome hisat2 |
 | Anno.gtf     | Genome annotation file     |
 
+## Software
 
+| Software     | Description                |
+| ------------ | -------------------------- |
+| fastp        | Quality control            |
+| hisat2       | Mapping                    |
+| stringtie    | quantify                   |
 
 ## Data processing
 
